@@ -1,0 +1,242 @@
+.backtoTop{
+	position: fixed;
+	    bottom: 50px;
+	    left: 1250px;
+			background-color: inherit;
+
+}
+.h1-name{
+color: #4e4e4e;
+}
+.nameLogo{
+	color: #4e4e4e;
+	font-family: "Brush Script MT",cursive;
+}
+.background-yellow{
+	background-color: #ffc60b;
+	width: 240px;
+}
+a{
+	padding-right: 20px;
+		padding-left: 20px;
+		font-family: 'Anton', sans-serif;
+}
+.download{
+	color: #ffc60b
+}
+.download:hover{
+	color: #4e4e4e
+}
+.section{
+margin-top: 5%;
+}
+.carousel{
+	margin-left: 30%;
+	margin-bottom: 10%;
+}
+p{
+	font-size: 20px;
+}
+.font-yellow{
+color: #ffc60b
+}
+.font-orange{
+color: #ff7315
+}
+/*
+Programming skills SECTION
+ */
+
+.radial-progress{ position: relative; max-width: 200px; margin: 0 auto; }
+
+.radial-progress .progressbar-text{ font-size: 2.2em; font-weight: 500;
+	padding-bottom: 25px!important; color: #4e4e4e!important; }
+
+.radial-progress .progressbar-text:after{ content:'%'; }
+
+.radial-progress .progress-title{ position: absolute; top: 50%; left: 50%; width: 100%;
+	letter-spacing: 0; text-align: center; transform: translate(-50%, 15px); color: #777; }
+
+	/*end Programming skills SECTION
+*/
+
+@media (max-width: 767px) {
+  .banner-area .fullscreen {
+    height: 700px !important;
+  }
+}
+/*
+ EDUCATION SECTION
+ */
+.education-section{
+	background-color: #f6da63;
+	margin-top: 40px;
+	padding-top: 20px;
+}
+.education-wrapper{ position: relative; }
+
+.education-wrapper:after{ content:''; position: absolute; top: 8px; bottom: 0; left: -51px;
+	width: 2px; background: #ccc; }
+
+.education-wrapper .education{ position: relative; }
+
+.education-wrapper .education:after{ content:''; position: absolute; top: 8px; left: -58px; width: 16px;
+	height: 16px; border-radius: 10px; z-index: 1;
+	box-shadow: 0 0 0 8px #ffc60b; background: #ff8b00; }
+	/*
+	end EDUCATION SECTION
+	 */
+
+	/*
+	 working Skills SECTION
+ */
+ .wskill-section{
+ 	background-color: #f6da63;
+ 	margin-top: 40px;
+ 	padding-top: 20px;
+ }
+
+ .myself-wrap .desc .lnr {
+   font-size: 20px;
+ }
+
+
+
+	.single-feature .title .lnr {
+	  font-weight: 400;
+	  margin-right: 12px;
+	  font-size: 20px;
+
+	}
+	.single-feature,.single-feature1 {
+	  padding: 30px 30px 15px 30px;
+	  -webkit-transition: all 0.3s ease 0s;
+	  -moz-transition: all 0.3s ease 0s;
+	  -o-transition: all 0.3s ease 0s;
+	  transition: all 0.3s ease 0s;
+		width: 110%;
+		height: 95%;
+
+	}
+	.single-feature1 {
+
+		margin-left: 30px;
+	}
+
+	.mb-30 {
+	  margin-bottom: 30px;
+	}
+	.pb-20 {
+	  padding-bottom: 20px;
+	}
+	/*
+	 end working Skills SECTION
+	 */
+/* Footer*/
+footer{
+	background-color: #f6da63;
+ 	padding: 5%;
+}
+.s-hover:hover{
+	color: #4e4e4e;
+}
+.social-div{
+margin-left: 30%;
+}
+#mc_embed_signup_scroll{
+margin-left: 20%;
+}
+.sub{
+	color: #292b2c;
+font-family: 'Bitter', serif;
+}
+.sub-email{
+	background-color: transparent;
+	border-color:  #4e4e4e;
+}
+.sub-btn{
+	background-color: transparent;
+	border-color:#ff8b00;
+	background-color: #ff8b00;
+	margin-left: 20%;
+	margin-top: 5%;
+}
+/* contact*/
+.contact-section{
+	padding-bottom: 10%;
+	padding-top: 5%;
+	padding-left: 15%;
+}
+
+ label{
+	color: #ff8b00;
+font-family: 'Bebas Neue', cursive;
+}
+.h3-contact{
+	font-family: 'Bebas Neue', cursive;
+}
+.li-contact{
+	font-family: 'Bebas Neue';
+	font-size: 20px;
+}
+.intro-contact{
+	margin-left: 30%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.myButton {
+	background-color:#ffcc66;
+	border-radius:28px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#706e70;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	margin-left: 20%;
+	padding:16px 18px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+}
+.myButton:hover {
+	background-color:#ffab23;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+input{
+	border-radius: 5%;
+	background-color: inherit;
+}
+textarea{
+	border-radius: 5%;
+	background-color: inherit;
+}
+/*arabic*/
+.nameLogoArabic{
+	font-family: 'Lalezar', cursive;
+}
+.h3-arabic{
+text-align: right;
+}
+.Arabic{
+	text-align: right;
+	align-items: right;
+}
+.education-section{
+	background-color: #f6da63;
+	margin-top: 40px;
+	padding-top: 20px;
+}
+.education-wrapper-arabic{ position: relative; }
+
+.education-wrapper-arabic:after{ content:''; position: absolute; top: 8px; bottom: 0; right: -51px;
+	width: 2px; background: #ccc; }
+
+.education-wrapper-arabic .education-arabic{ position: relative; }
+
+.education-wrapper-arabic .education-arabic:after{ content:''; position: absolute; top: 8px; right: -58px; width: 16px;
+	height: 16px; border-radius: 10px; z-index: 1;
+	box-shadow: 0 0 0 8px #ffc60b; background: #ff8b00; }
